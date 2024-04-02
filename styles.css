@@ -1,1 +1,115 @@
 /* your code here */
+body{
+	font-family: Arial, sans-serif;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #10E37F;
+}
+
+.product__photo {
+    flex: 1;
+    padding: 20px;
+    background-color: #AAE62B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.controls i {
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.photo-album ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-album li {
+    margin-right: 10px;
+}
+
+.photo-album img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product__info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.title span {
+    font-size: 14px;
+    color: #777;
+}
+
+.price {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.variant h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.variant ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.variant li {
+    margin-right: 10px;
+}
+
+.variant img {
+    max-width: 50px;
+    height: auto;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.add-to-cart button {
+    background-color: #FE3F40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 5px;
+}
+
+.add-to-cart button:hover {
+    background-color: #EF574C;
+}
